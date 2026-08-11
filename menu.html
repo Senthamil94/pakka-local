@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu — Pakka Local, San Ramon</title>
+<meta name="description" content="The full Pakka Local menu: biryani, curries, tandoori, dosas, breads and desserts. Search, filter by veg and heat, and order online.">
+<meta name="theme-color" content="#db594b">
+<meta property="og:title" content="Menu — Pakka Local, San Ramon">
+<meta property="og:description" content="The full Pakka Local menu: biryani, curries, tandoori, dosas, breads and desserts. Search, filter by veg and heat, and order online.">
+<meta property="og:image" content="https://static-content.owner.com/097e523f-28c5-4155-baf5-9c3c48c8f4a4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Schibsted+Grotesk:ital,wght@0,400..700;1,400..600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="https://pakkalocalusa.com/pluto-images/49ff95b6-4b15-40d1-94bc-1e4e50acdd3d?w=64&h=64&fit=contain">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<div id="prog"></div>
+<div id="ann"><div class="ann-in">
+  <span id="stat"><i class="dt"></i>Checking today&rsquo;s hours</span>
+  <span class="sep">&mdash;</span><span>Halal meats, always</span>
+  <span class="sep">&mdash;</span><a href="tel:+19257185125">(925) 718-5125</a>
+</div></div>
+<header id="nav"><div class="wrap nv">
+  <a class="brand" href="index.html" aria-label="Pakka Local home">
+    <img src="https://pakkalocalusa.com/pluto-images/49ff95b6-4b15-40d1-94bc-1e4e50acdd3d?h=140&fit=contain" alt="Pakka Local"></a>
+  <nav class="nvl" aria-label="Primary">
+    <a href="menu.html" class="cur">Menu</a>
+    <a href="index.html#buffet" >Buffet</a>
+    <a href="index.html#bar">Bar</a>
+    <a href="https://order.boons.io/site/catering/pakka-local/172/y">Catering</a>
+    <a href="https://pakkalocalusa.com/story">Our story</a>
+    <a href="index.html#visit">Visit</a>
+  </nav>
+  <div class="nvc">
+    <a class="btn b2 bs" href="tel:+19257185125">Call us</a>
+    <a class="btn b1 bs" href="https://order.boons.io/site/pakka-local/172/y">Order online
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <button class="brg" id="brg" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</div></header>
+<div id="dr" aria-hidden="true">
+  <a href="menu.html">Menu <span>01</span></a>
+  <a href="index.html#buffet">Lunch buffet <span>02</span></a>
+  <a href="index.html#bar">The Pakka Bar <span>03</span></a>
+  <a href="index.html#gallery">Gallery <span>04</span></a>
+  <a href="https://order.boons.io/site/catering/pakka-local/172/y">Catering <span>05</span></a>
+  <a href="https://pakkalocalusa.com/page/events">Events &amp; private dining <span>06</span></a>
+  <a href="index.html#visit">Visit us <span>07</span></a>
+  <div class="drf">
+    <a class="btn b1" href="https://order.boons.io/site/pakka-local/172/y">Order online</a>
+    <a class="btn b2" href="tel:+19257185125">Call (925) 718-5125</a>
+  </div>
+</div>
+
+<main id="main">
+<section class="mhead">
+  <div class="wrap">
+    <span class="eb">The full menu</span>
+    <h1 class="h1">Everything we cook</h1>
+    <p class="lede">Search it, filter by veg or non-veg, dial in how much heat you want, and build a plate before you order.</p>
+  </div>
+</section>
+
+<div class="mt">
+  <div class="wrap">
+    <div class="tr">
+      <div class="sb">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input type="search" id="q" placeholder="Search &mdash; biryani, dosa, paneer, prawns&hellip;" aria-label="Search the menu">
+      </div>
+      <div class="sg" role="group" aria-label="Filter by diet">
+        <button class="on" data-diet="all">All</button>
+        <button data-diet="veg"><span class="mk"></span>Veg</button>
+        <button data-diet="nonveg"><span class="mk nv"></span>Non-veg</button>
+      </div>
+      <div class="hp"><label for="heat">Heat</label>
+        <input type="range" id="heat" min="0" max="3" step="1" value="3"><b id="hl">Any heat</b></div>
+    </div>
+    <div class="cr" id="cr"></div>
+  </div>
+</div>
+
+<div class="wrap" style="padding-bottom:clamp(3.5rem,7vw,6rem)">
+  <p class="mc" id="mc"></p>
+  <div class="mg" id="mg"></div>
+  <p style="margin-top:2.5rem;font-size:.85rem;color:var(--ink-3);max-width:60ch">
+    Prices and dishes follow the restaurant&rsquo;s live ordering menu. Dishes marked
+    <span style="font-family:var(--mono);font-size:.75rem">Ask us</span> are not currently priced online &mdash;
+    please call <a href="tel:+19257185125" style="border-bottom:1px solid var(--line-2)">(925) 718-5125</a> to check.
+  </p>
+  <div style="display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1.6rem">
+    <a class="btn b1" href="https://order.boons.io/site/pakka-local/172/y">Order online
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a class="btn b2" href="https://order.boons.io/site/catering/pakka-local/172/y">Catering menu</a>
+  </div>
+</div>
+</main>
+
+<aside id="pd" aria-live="polite">
+  <div class="pdh" id="pdh"><div><b>Your plate</b><small id="pdn">0 dishes</small></div>
+    <svg class="pdt" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></div>
+  <div class="pdb" id="pdb"></div>
+  <div class="pdf">
+    <div class="pdtot"><small>Estimated total</small><b id="pdtot">$0.00</b></div>
+    <a class="btn b1 bs" href="https://order.boons.io/site/pakka-local/172/y">Order these online</a>
+    <button class="pdc" id="pdclr">Clear the plate</button>
+  </div>
+</aside>
+
+<footer id="ft"><div class="wrap">
+  <div class="fg">
+    <div class="fb">
+      <img src="https://pakkalocalusa.com/pluto-images/49ff95b6-4b15-40d1-94bc-1e4e50acdd3d?h=140&fit=contain" alt="Pakka Local">
+      <p>Indian food in San Ramon, CA. Order directly and support a local business.</p>
+      <div class="sc">
+        <a href="https://www.facebook.com/people/pakkalocalusa/61559272376143/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0022 12z"/></svg></a>
+        <a href="https://instagram.com/pakkalocalusa" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4 1.3-.1 1.7-.1 4.9-.1zm0 3.8a6 6 0 100 12 6 6 0 000-12zm0 9.9a3.9 3.9 0 110-7.8 3.9 3.9 0 010 7.8zm7.6-10.1a1.4 1.4 0 11-2.8 0 1.4 1.4 0 012.8 0z"/></svg></a>
+      </div>
+    </div>
+    <div class="fcl"><h5>Eat</h5><a href="menu.html">Full menu</a><a href="index.html#buffet">Lunch buffet</a>
+      <a href="index.html#bar">The Pakka Bar</a><a href="https://order.boons.io/site/catering/pakka-local/172/y">Catering</a></div>
+    <div class="fcl"><h5>Visit</h5><a href="index.html#visit">Find us</a>
+      <a href="https://pakkalocalusa.com/page/events">Events &amp; private dining</a>
+      <a href="https://pakkalocalusa.com/story">Our story</a>
+      <a href="https://8c9848a579954a0ca5806035a7b7b225.app.ordersave.com/download-app">Order with the app</a></div>
+    <div class="fcl"><h5>Find us</h5><p>2410 San Ramon Valley Blvd #150<br>San Ramon, CA 94583</p>
+      <a href="tel:+19257185125">(925) 718-5125</a><a href="mailto:pakkalocalca@gmail.com">pakkalocalca@gmail.com</a></div>
+  </div>
+  <div class="fbar"><span>&copy; <span id="yr">2026</span> Pakka Local. All rights reserved.</span>
+    <span><a href="https://pakkalocalusa.com/terms">Terms</a> &middot; <a href="https://pakkalocalusa.com/accessibility">Accessibility</a></span></div>
+</div></footer>
+<button id="tt" aria-label="Back to top"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<div id="ts"></div>
+<script src="js/main.js" defer></script>
+</body>
+</html>
