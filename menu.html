@@ -12,7 +12,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Schibsted+Grotesk:ital,wght@0,400..700;1,400..600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/accessibility.css">
 <link rel="icon" href="https://pakkalocalusa.com/pluto-images/49ff95b6-4b15-40d1-94bc-1e4e50acdd3d?w=64&h=64&fit=contain">
 </head>
 <body>
@@ -127,12 +129,24 @@
       <a href="index.html#story">Our story</a></div>
     <div class="fcl"><h5>Find us</h5><p>2410 San Ramon Valley Blvd #150<br>San Ramon, CA 94583</p>
       <a href="tel:+19257185125">(925) 718-5125</a><a href="mailto:pakkalocalca@gmail.com">pakkalocalca@gmail.com</a></div>
+    <div class="fcl"><h5>Legal</h5>
+      <a href="https://www.boons.io/terms-of-service" target="_blank" rel="noopener">Terms of service</a>
+      <a href="https://www.boons.io/privacy-policy" target="_blank" rel="noopener">Privacy policy</a>
+      <a href="https://www.boons.io/accessibility-statement" target="_blank" rel="noopener">Accessibility statement</a></div>
   </div>
-  <div class="fbar"><span>&copy; <span id="yr">2026</span> Pakka Local. All rights reserved.</span>
-    <span><a href="https://pakkalocalusa.com/terms">Terms</a> &middot; <a href="https://pakkalocalusa.com/accessibility">Accessibility</a></span></div>
+  <div class="fbar">
+    <span>&copy; <span id="yr">2026</span> Pakka Local · All rights reserved</span>
+    <span class="fbar-end">
+      <a href="https://www.boons.io/terms-of-service" target="_blank" rel="noopener">Terms</a>
+      <a href="https://www.boons.io/privacy-policy" target="_blank" rel="noopener">Privacy</a>
+      <a href="https://www.boons.io/accessibility-statement" target="_blank" rel="noopener">Accessibility</a>
+      <span class="powered-by">Powered by <a href="https://www.boons.io/" target="_blank" rel="noopener" aria-label="boons"><img src="assets/boons-logo.png" alt="boons"></a></span>
+    </span>
+  </div>
 </div></footer>
 <button id="tt" aria-label="Back to top"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 <div id="ts"></div>
+<script src="js/accessibility.js"></script>
 <script src="js/main.js" defer></script>
 </body>
 </html>
